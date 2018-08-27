@@ -1,0 +1,35 @@
+ul{
+	/*permite quitar las viñetas*/
+	list-style-type: none;
+	/*quitar margenes*/
+	margin: 0;
+	padding: 0;
+	/*especificamos borde primero el ancho del borde, segundo el estilo y tercero el color*/
+	border: 1px solid #CCC;
+	/*ancho de la lista*/
+	width: 130px;
+
+}
+/* estilo para el enlace*/
+a{
+
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*quitar el subrayado*/
+	text-decoration: none;
+	font-size: 16px;
+	/*convertir en bloque*/
+	display: block;
+	padding: 6px;
+	border: 1px solid #CCC;
+	background-color: #EAEAEA;
+
+}
+
+/* estilo para el enlace para la pseudaclase hover*/
+
+a:hover{
+	color: #FFF;
+	background-color: #666;
+	border-right-width: 5px;
+	border-right-color: blue;
+}
